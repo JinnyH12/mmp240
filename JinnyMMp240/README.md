@@ -1,3 +1,3 @@
 # MMP 240
 Course template
-https://github.com/JinnyH12/mmp240
+https://JinnyH12.github.io/mmp240/JinnyMMp240
