@@ -9,7 +9,7 @@ body{
   h1{
     background-color:#f5e6ac;
     color: black;
-    width: 500px;
+    width: 700px;
     height:40px;
     border:solid 3px #1f1f14;
     font-family:'Times New Roman', serif;
@@ -23,15 +23,17 @@ body{
   h2{
     color: #9f80ff;
   }
+  .container {
+    overflow: hidden;
+}
   
-  
-  img{
-    width:600px;
-    text-align: wrap;
-    border:solid 5px white;
-  }
-  
-  
+  .lefty{
+    float: left;
+    width: 300px; 
+    margin-right: 100px;
+  margin-bottom: 20px; }
+    
+    
   p{
     text-align: justify;
     line-height: 30px;
@@ -39,7 +41,8 @@ body{
   }
 
   ul {
-    margin-bottom: 20px auto;
+    margin-left: 400px;
+    margin-bottom: 10px;
     border: 3px solid black;
     padding: 10px;
     list-style-type: none;
@@ -51,7 +54,11 @@ ul li {
   text-align: justify;
   line-height: 35px;
 }
+ol  li{
+  text-align: justify;
+  line-height: 40px;
 
+}
   button{
     background-color:#b3ecff;
     color:white;
