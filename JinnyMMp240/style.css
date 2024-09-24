@@ -3,12 +3,13 @@ body{
     margin:100px;
     background-color:#ebe0e0;
     font-family:'Times New Roman', serif;
+    width: 600px;
   }
   
   h1{
     background-color:#f5e6ac;
     color: black;
-    width:150px;
+    width: 500px;
     height:40px;
     border:solid 3px #1f1f14;
     font-family:'Times New Roman', serif;
@@ -27,12 +28,14 @@ body{
   img{
     width:600px;
     text-align: wrap;
-    border:solid 10px white;
+    border:solid 5px white;
   }
+  
   
   p{
     text-align: justify;
     line-height: 30px;
+  
   }
 
   ul {
