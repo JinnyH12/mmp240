@@ -20,6 +20,7 @@ body{
   font-style: normal;
   border-radius: 10px;
   }
+
   h2{
     color: #9f80ff;
   }
@@ -32,7 +33,13 @@ body{
     width: 300px; 
     margin-right: 100px;
   margin-bottom: 20px; }
-    
+  .right{
+    float:right
+    width: 300px; 
+    margin-right: 100px;
+  margin-bottom: 20px;
+ }
+  
     
   p{
     text-align: justify;
@@ -70,6 +77,14 @@ ol  li{
     font-family: 'Times New Roman', serif;
   }
 
+  lefty{
+    max-width:100%;
+    height: auto;
+	float:right;
+	margin: 12px;
+	border:solid 5px #996600;
+	clear:right;
+}
  
   
   

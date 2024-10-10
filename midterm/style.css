@@ -1,0 +1,104 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('images/background.jpg.webp') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+/* Header */
+header {
+    background-color:#188AB4;
+    width: 1400px; 
+    height: 77px; 
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+   display: flex; /* 使用flex布局 */
+    justify-content: space-between; /* 内容两端对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    padding: 10px 0;
+}
+
+p{
+    text-align: justify;
+    line-height: 30px;
+  
+  }
+/* Search Bar */
+.search-bar input {
+    padding: 5px 10px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+.righty {
+    float: right;
+    width: 300px; 
+    margin-right: 100px;
+    margin-bottom: 20px;
+ }
+ 
+ .lefty {
+    float: left;
+    width: 300px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+ }
+
+.search-bar input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+/* Navigation Buttons */
+nav button {
+    background-color: #a8d8ea;
+    border: none;
+    padding: 8px 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+}
+
+nav button:hover {
+    background-color: #a8d8ea;
+    border: none;
+    padding: 8px 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Banner */
+.banner {
+    margin-bottom: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.character {
+
+}
+
+
+
