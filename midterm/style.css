@@ -59,12 +59,11 @@ button {
     width: 1108px;
     height: auto;
     margin-left: 120px;
-    margin-top: 5em;
 }
-.poster2 img {
+.poster2 video {
     width: 1108px;
     height: auto;
-    margin-left: 7.5em;
+    margin-right: 7.5em;
     margin-top: 5em;
 }
 .intro{
@@ -230,6 +229,7 @@ main {
 .video{
     width: 1108px;
     margin-left: 7.5em;
+   
 }
 
 footer {
