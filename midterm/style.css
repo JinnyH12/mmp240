@@ -1,18 +1,18 @@
 
 body, html {
+    flex:1 0 auto;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background: url('images/background.jpg.webp') repeat center center fixed;
     background-size: cover;
 
-    
-
 }
 
 /* Header */
 header {
-    background-color:#188AB4;
+    flex:1 1 auto;
+    background-color:#409ecd;
     font-style: normal;
     display: flex; 
     align-items: center; 
@@ -55,6 +55,7 @@ button {
 }
 
 .poster img {
+    flex:1 1 auto;
     width: 1108px;
     height: auto;
     margin-left: 120px;
@@ -180,7 +181,7 @@ main {
     margin: 10px auto; 
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .info-box {
@@ -242,9 +243,9 @@ footer {
 footer p {
     line-height: 40px;
     letter-spacing: 1px; 
-    width: 600px;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
     padding: 10px 0;
 }
-   
+
