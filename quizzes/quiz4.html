@@ -9,20 +9,35 @@
       .colorboxes{
         margin:100px;
         width:500px;
+        position: relative; 
       }
       .box{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
         padding:50px;
         color:white;
         text-align:center;
+        width: 100px; 
+        height: 100px; 
       }
       .redbox{
         background-color:red;
+        position: relative;
+        width: 500px
       }
       .bluebox{
         background-color:blue;
+        position: absolute;
+        width: 100px;
+        height: 100px;  
+        top: 0;
+        left: 0; 
       }
       .greenbox{
         background-color:green;
+        width: 500px; 
+        height: 100px;
       }
       </style>
 
