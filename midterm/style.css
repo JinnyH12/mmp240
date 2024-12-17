@@ -54,18 +54,7 @@ button {
     
 }
 
-.poster img {
-    flex:1 1 auto;
-    width: 1108px;
-    height: auto;
-    margin-left: 120px;
-}
-.poster2 video {
-    width: 1108px;
-    height: auto;
-    margin-right: 7.5em;
-    margin-top: 5em;
-}
+
 .intro{
     display: flex; 
     width: 1108px;
