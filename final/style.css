@@ -629,6 +629,14 @@ footer {
     font-size: 16px;
     color: #333;
 }
+
+.degree-btn-container {
+    align-items: center; 
+    gap: 10px; /* Adjust space between buttons */
+    justify-content: flex-start; /* Align buttons to the left (default) */
+    margin-top: 10px; /* Space between text and buttons */
+}
+
 /* Degree按钮样式 */
 .degree-btn {
     padding: 5px 5px;
@@ -637,21 +645,16 @@ footer {
     font-size: 10px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     transition: background-color 0.3s ease;
-    width: auto; /* Ensure buttons have automatic width */
     min-width: 80px;
     max-width: 100px;
-    text-align: center; /* Center the text inside the buttons */
-
+   
+display: flex; /* 水平排列 */
+    
+   
 }
 
-.degree-btn-container {
-    align-items: center; 
-    gap: 10px; /* Adjust space between buttons */
-    justify-content: flex-start; /* Align buttons to the left (default) */
-    margin-top: 10px; /* Space between text and buttons */
-}
+
 
 .degree-btn:hover {
     background-color: #007529;
@@ -674,14 +677,4 @@ footer {
         width: 100%; /* 每行显示1个卡片 */
     }
 
-    .search-input {
-        width: 150px;
-    }
-
-    .search-button {
-        padding: 5px;
-    }
 }
-
-
-
