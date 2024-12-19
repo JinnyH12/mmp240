@@ -595,18 +595,17 @@ footer {
 .flex-item {
     position: relative;
     width: calc(25% - 20px); /* 每行4个卡片 */
-    background-color: #fff; /* 卡片背景为白色 */
+    background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 15px;
     margin-bottom: 20px;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column; /* Stack content vertically */
-    justify-content: space-between; /* Align content at the bottom */
+    display: block; /* 更改为block，这样它不会影响子元素的排列 */
     transition: transform 0.3s ease;
 }
+
 
 .flex-item:hover {
     transform: translateY(-5px); /* 卡片 hover 效果 */
@@ -622,7 +621,6 @@ footer {
 .flex-item p {
     font-size: 14px;
     margin-top: 10px;
-  
 }
 
 .flex-item strong {
@@ -630,36 +628,35 @@ footer {
     color: #333;
 }
 
+/* Degree按钮容器样式 */
 .degree-btn-container {
-    align-items: center; 
-    gap: 10px; /* Adjust space between buttons */
-    justify-content: flex-start; /* Align buttons to the left (default) */
-    margin-top: 10px; /* Space between text and buttons */
+    display: flex; /* 使用Flexbox来水平排列按钮 */
+    gap: 10px; /* 按钮之间的间距 */
+    justify-content: flex-start; /* 按钮左对齐 */
+    margin-top: 10px; /* 按钮与文字之间的间距 */
+    flex-wrap: wrap; /* 允许按钮换行（如果有更多按钮） */
 }
+
 
 /* Degree按钮样式 */
 .degree-btn {
-    padding: 5px 5px;
-    background-color:#1bb55b86;
-    color:black;
-    font-size: 10px;
+    padding: 5px 10px; /* 增加按钮的内边距 */
+    background-color: #1bb55b86;
+    color: black;
+    font-size: 12px; /* 字体大小适中 */
     border: none;
     border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
-    min-width: 80px;
-    max-width: 100px;
-   
-display: flex; /* 水平排列 */
-    
-   
+    min-width: 80px; /* 最小宽度 */
+    max-width: 100px; /* 最大宽度 */
+    text-align: center; /* 确保按钮文本居中 */
 }
 
-
-
+/* Hover效果 */
 .degree-btn:hover {
     background-color: #007529;
-    color:white;
-
+    color: white;
 }
 
 /* 响应式设计：平板和小屏幕设备 */
@@ -676,5 +673,4 @@ display: flex; /* 水平排列 */
     .flex-item {
         width: 100%; /* 每行显示1个卡片 */
     }
-
 }
