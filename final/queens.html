@@ -1,163 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Final</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="reset.css">
-
-<style type="text/css"></style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Programs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
-
 <body>
-<header>
+    <header>
+        <!-- Top Navigation -->
+        <nav id="top">
+            <div class="container">
+                <div class="row">
+                    <strong class="logo">CUNY@Design</strong>
+                    <ul class="list-inline top-link">
+                        <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+                        <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
+                        <li><a href="#">Apply</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-<!--Top-->
-<nav id="top">
-<div class="container">
-<div class="row">
-<strong class="logo">CUNY@Design</strong>
+        <!-- Main Navigation -->
+        <nav id="menu" class="navbar container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <div class="logo2">CUNY@FINAL</div>
+                </a>
+                <div id="hamburger-menu" class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav toplist">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Discipline</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="digitaldesign.html">Digital Design</a></li>
+                            <li><a href="animation.html">Animation</a></li>
+                            <li><a href="industrialdesign.html">Industrial Design</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Degree</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="associate.html">Associate</a></li>
+                            <li><a href="bachelor.html">Bachelor</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Borough</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="brooklyn.html">Brooklyn</a></li>
+                            <li><a href="bronx.html">Bronx</a></li>
+                            <li><a href="manhattan.html">Manhattan</a></li>
+                            <li><a href="queens.html">Queens</a></li>
+                        </ul>
+                    </li>
+                    <li class="search-item">
+                        <input type="text" placeholder="Search here" class="search-input">
+                        <button type="button" class="search-button">Search</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-<ul class="list-inline top-link">
-    <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
-    <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
-    <li><a href="#">Apply</a></li>
-</ul>
-</div>
-</div>
-</nav>
+    <div id="wrapper">
+      <div class="flex-container">
+        <!-- Card 1: LaGuardia Community College - A.A.S. Industrial Design -->
+        <div class="flex-item">
+            <img src="images/laguardia.jpg" alt="LaGuardia Community College" class="img-responsive">
+            <p><strong>LaGuardia Community College</strong><br>
+                A.A.S. Industrial Design (Queens) - The Industrial Design program provides students a foundation experience in the necessary skills to begin a career in Computer Assisted Design (CAD), model making, product design and fabrication, or transfer to a four-year institution.</p>
+            <button class="degree-btn">A.A.S.</button>
+            <button class="degree-btn">Industrial Design</button>
+        </div>
+    
+        <!-- Card 2: LaGuardia Community College - A.A.S. Digital Design -->
+        <div class="flex-item">
+            <img src="images/laguardia.jpg" alt="LaGuardia Community College" class="img-responsive">
+            <p><strong>LaGuardia Community College</strong><br>
+                A.A.S. Digital Design (Queens) - The New Media Technology major offers students the opportunity to work and experiment with some of the exciting technologies available today. Students develop a broad understanding of multimedia and Internet technologies in order to develop expertise in creating digital content.</p>
+            <button class="degree-btn">A.A.S.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    
+        <!-- Card 3: Queensborough Community College - A.S. Digital Design -->
+        <div class="flex-item">
+            <img src="images/qcc.jpg" alt="Queensborough Community College" class="img-responsive">
+            <p><strong>Queensborough Community College</strong><br>
+                A.S. Digital Design (Queens) - The A.S. degree program in Digital Art and Design prepares students to enter the greatly expanding field of new media. In addition to four basic courses that provide a solid background in art, students take five courses in digital art and design, which develop computer skills for fine and applied arts.</p>
+            <button class="degree-btn">A.S.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    
+        <!-- Card 4: York College - B.S. Digital Design -->
+        <div class="flex-item">
+            <img src="images/york.jpg" alt="York College" class="img-responsive">
+            <p><strong>York College</strong><br>
+                B.S. Digital Design (Queens) - An interdisciplinary program that brings together television, web, information systems, computer science, and design. The program offers three main concentrations: digital video, computer graphics, and systems and applications.</p>
+            <button class="degree-btn">B.S.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    </div>
+    
+    
+        </div> <!-- closing .flex-container -->
+    </div> <!-- closing #wrapper -->
 
-
-<!-- Main Navigation -->
-<nav id="menu" class="navbar container">
-<div class="navbar-header">
-        
-<!-- Logo -->
-<a class="navbar-brand" href="#">
-      <div class="logo2">CUNY@FINAL</div>
-    </a>
-
-<!-- Navigation Links -->
-<div id="hamburger-menu" class="hamburger-menu">
-<span></span>
-<span></span>
-<span></span>
-</div>
-<ul class="nav toplist">
-<li><a href="index.html">Home</a></li>
-
-<!-- Disciplin Dropdown -->
-<li class="dropdown">
-<a href="#">Disciplin</a>
-<ul class="dropdown-menu">
-<li><a href="digitaldesign.html">Digital Design</a></li>
-<li><a href="animation.html">Animation</a></li>
-<li><a href="industrialdesign.html">Industrial Design</a></li>
-</ul>
-</li>
-
-<!-- Degree Dropdown -->
-<li class="dropdown">
-<a href="#">Degree</a>
-<ul class="dropdown-menu">
-<li><a href="associate.html">Associate</a></li>
-<li><a href="bachelor.html">Associate</a></li>
-</ul>
-</li>
-
-<!-- Borough Dropdown -->
-<li class="dropdown">
-<a href="#">Borough</a>
-<ul class="dropdown-menu">
-<li><a href="brooklyn.html">Brooklyn</a></li>
-<li><a href="bronx.html">Bronx</a></li>
-<li><a href="manhattan.html">Manhattan</a></li>
-<li><a href="queens.html">Queens</a></li>
-</ul>
-</li>
-
-<!-- Search -->
-<li class="search-item">
-<input type="text" placeholder="Search here" class="search-input">
-<button type="button" class="search-button">Search</button>
-</li>
-</ul>
-</nav>
-</header>	
-
-<style>
-  /* Type CSS code here */
-
-  #wrapper{
-    max-width:1200px;
-    margin:0 auto;
-    background-color: white;
-  }
-  
-  .flex-container{
-    display: flex;
-
-  }
-
-  .flex-item {
-    width: 150px;
-    border: solid 1px gray;
-    padding: 5px;
-    border-radius: 10px;
-    margin: 1em;
-    flex: 1 0 0; 
-  }
-
-  .img-responsive{
-    width:100%;
-  }
-
-</style>
-
-<div class="box">
-  <div class="box-header header-natural">
-    <h2>Design Programs in Queens</h2>
-  </div>
-  
-  <div id="wrapper">
-    <div class="flex-container">
-
-      <div class="flex-item card1">
-        <img src="images/queenscollege.webp" alt="Queens College" class="img-responsive">
-        <p><strong>Queens College</strong><br>
-          Program: Design<br>
-          Degree: B.F.A.<br>
-          Discipline: Digital Design, Animation<br>
-          Location: Queens<br>
-          Description: Queens College’s Design program combines knowledgeable faculty with industry standard software and the creativity of a studio-based learning environment. Students choose one of three concentrations: Communication Design, Animation & Illustration, or Interaction Design.</p>
-      </div>
-
-      <div class="flex-item card2">
-        <img src="images/york.jpg" alt="York College" class="img-responsive">
-        <p><strong>York College</strong><br>
-          Program: Communications Technology<br>
-          Degree: B.S.<br>
-          Discipline: Digital Design<br>
-          Location: Queens<br>
-          Description: An interdisciplinary program that brings together television, web, information systems, computer science, and design. The program offers three main concentrations: digital video, computer graphics, and systems and applications.</p>
-      </div>
-
-    </div> <!-- closing .flex-container -->
-  </div> <!-- closing #wrapper -->
-
-</body>
-
-<footer>					
-  <div class="copy">
-  <div class="logo two">
-    <a href="index.html"><h3>Final@Design</h3></a>
-  </div>
-  
-  
-  <p>Copyright &copy; 2024.CUNY.</p>
-  </div>
-</footer>
-
+    <footer>
+        <div class="copy">
+            <div class="logo two">
+                <a href="index.html"><h3>Final@Design</h3></a>
+            </div>
+            <p>Copyright &copy; 2024. CUNY.</p>
+        </div>
+    </footer>
 </body>
 </html>

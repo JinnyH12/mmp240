@@ -1,182 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Final</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="reset.css">
-
-<style type="text/css"></style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Programs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
-
 <body>
-<header>
+    <header>
+        <!-- Top Navigation -->
+        <nav id="top">
+            <div class="container">
+                <div class="row">
+                    <strong class="logo">CUNY@Design</strong>
+                    <ul class="list-inline top-link">
+                        <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+                        <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
+                        <li><a href="#">Apply</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-<!--Top-->
-<nav id="top">
-<div class="container">
-<div class="row">
-<strong class="logo">CUNY@Design</strong>
+        <!-- Main Navigation -->
+        <nav id="menu" class="navbar container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <div class="logo2">CUNY@FINAL</div>
+                </a>
+                <div id="hamburger-menu" class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav toplist">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Discipline</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="digitaldesign.html">Digital Design</a></li>
+                            <li><a href="animation.html">Animation</a></li>
+                            <li><a href="industrialdesign.html">Industrial Design</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Degree</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="associate.html">Associate</a></li>
+                            <li><a href="bachelor.html">Bachelor</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Borough</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="brooklyn.html">Brooklyn</a></li>
+                            <li><a href="bronx.html">Bronx</a></li>
+                            <li><a href="manhattan.html">Manhattan</a></li>
+                            <li><a href="queens.html">Queens</a></li>
+                        </ul>
+                    </li>
+                    <li class="search-item">
+                        <input type="text" placeholder="Search here" class="search-input">
+                        <button type="button" class="search-button">Search</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-<ul class="list-inline top-link">
-    <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
-    <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
-    <li><a href="#">Apply</a></li>
-</ul>
-</div>
-</div>
-</nav>
+    <div id="wrapper">
+      <div class="flex-container">
+        <!-- Card 1: Borough of Manhattan Community College - A.S. Animation -->
+        <div class="flex-item">
+            <img src="images/bmcc.jpg" alt="Borough of Manhattan Community College" class="img-responsive">
+            <p><strong>Borough of Manhattan Community College</strong><br>
+                A.S. Animation (Manhattan) - The Animation and Motion Graphics program provides students with the fundamentals of two- and three-dimensional (2D and 3D) animation, motion graphics, and special effects for advertising campaigns, video games, movies, and television.</p>
+            <button class="degree-btn">A.S.</button>
+            <button class="degree-btn">Animation</button>
+        </div>
+    
+        <!-- Card 2: Borough of Manhattan Community College - A.S. Digital Design -->
+        <div class="flex-item">
+            <img src="images/bmcc.jpg" alt="Borough of Manhattan Community College" class="img-responsive">
+            <p><strong>Borough of Manhattan Community College</strong><br>
+                A.S. Digital Design (Manhattan) - The Multimedia Programming and Design Program prepares students for careers in a variety of multimedia industries, companies, and institutions that develop, produce, or market multimedia products, programs, or services.</p>
+            <button class="degree-btn">A.S.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    
+        <!-- Card 3: New York City College of Technology - A.A.S. Digital Design -->
+        <div class="flex-item">
+            <img src="images/nyctech.jpg" alt="New York City College of Technology" class="img-responsive">
+            <p><strong>New York City College of Technology</strong><br>
+                A.A.S. Digital Design (Manhattan) - The AAS degree program in Communication Design provides students with a solid foundation in the theory and practices of the Communication Design profession and a grounding in general education. Students explore visual expression through a range of courses in drawing, design, and web design.</p>
+            <button class="degree-btn">A.A.S.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    
+        <!-- Card 4: The City College of New York - B.F.A. Digital Design -->
+        <div class="flex-item">
+            <img src="images/ccny.jpg" alt="The City College of New York" class="img-responsive">
+            <p><strong>The City College of New York</strong><br>
+                B.F.A. Digital Design (Manhattan) - The Electronic Design & Multimedia program prepares students for careers in design in traditional print and emerging electronic media. It offers one of the most comprehensive, affordable 4-year programs in electronic art at a New York City public university, and has an 18-year record of alumni success.</p>
+            <button class="degree-btn">B.F.A.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    
+        <!-- Card 5: Baruch College - B.A. Digital Design -->
+        <div class="flex-item">
+            <img src="images/baruch.jpg" alt="Baruch College" class="img-responsive">
+            <p><strong>Baruch College</strong><br>
+                B.A. Digital Design (Manhattan) - The graphic communication specialization provides training in graphics as well as basic training in the broader aspects of business communication. It prepares the graphic artist to enter a business environment.</p>
+            <button class="degree-btn">B.A.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    </div>
+    
+    
+        </div> <!-- closing .flex-container -->
+    </div> <!-- closing #wrapper -->
 
-
-<!-- Main Navigation -->
-<nav id="menu" class="navbar container">
-<div class="navbar-header">
-        
-<!-- Logo -->
-<a class="navbar-brand" href="#">
-      <div class="logo2">CUNY@FINAL</div>
-    </a>
-
-<!-- Navigation Links -->
-<div id="hamburger-menu" class="hamburger-menu">
-<span></span>
-<span></span>
-<span></span>
-</div>
-<ul class="nav toplist">
-<li><a href="index.html">Home</a></li>
-
-<!-- Disciplin Dropdown -->
-<li class="dropdown">
-<a href="#">Disciplin</a>
-<ul class="dropdown-menu">
-<li><a href="digitaldesign.html">Digital Design</a></li>
-<li><a href="animation.html">Animation</a></li>
-<li><a href="industrialdesign.html">Industrial Design</a></li>
-</ul>
-</li>
-
-<!-- Degree Dropdown -->
-<li class="dropdown">
-<a href="#">Degree</a>
-<ul class="dropdown-menu">
-<li><a href="associate.html">Associate</a></li>
-<li><a href="bachelor.html">Associate</a></li>
-</ul>
-</li>
-
-<!-- Borough Dropdown -->
-<li class="dropdown">
-<a href="#">Borough</a>
-<ul class="dropdown-menu">
-<li><a href="brooklyn.html">Brooklyn</a></li>
-<li><a href="bronx.html">Bronx</a></li>
-<li><a href="manhattan.html">Manhattan</a></li>
-<li><a href="queens.html">Queens</a></li>
-</ul>
-</li>
-
-<!-- Search -->
-<li class="search-item">
-<input type="text" placeholder="Search here" class="search-input">
-<button type="button" class="search-button">Search</button>
-</li>
-</ul>
-</nav>
-</header>	
-
-<style>
-  /* Type CSS code here */
-
-  #wrapper{
-    max-width:1200px;
-    margin:0 auto;
-    background-color: white;
-  }
-  
-  .flex-container{
-    display: flex;
-  }
-
-  .flex-item {
-    width: 150px;
-    border: solid 1px gray;
-    padding: 5px;
-    border-radius: 10px;
-    margin: 1em;
-    flex: 1 0 0; 
-  }
-
-  .img-responsive{
-    width:100%;
-  }
-
-</style>
-
-<div class="box">
-  <div class="box-header header-natural">
-    <h2>Manhattan Design Programs</h2>
-  </div>
-  
-  <div id="wrapper">
-    <div class="flex-container">
-
-      <div class="flex-item card1">
-        <img src="images/CityCollege.jpg" alt="City College of New York" class="img-responsive">
-        <p><strong>The City College of New York</strong><br>
-          Program: Electronic Design and Multimedia<br>
-          Degree: B.F.A.<br>
-          Discipline: Digital Design, Multimedia<br>
-          Location: Manhattan<br>
-          Description: This program offers a combination of traditional print and emerging digital media, focusing on web design, video production, and 3D modeling to prepare students for a variety of careers in the creative industries.</p>
-      </div>
-
-      <div class="flex-item card2">
-        <img src="images/parsons.jpg" alt="Parsons School of Design" class="img-responsive">
-        <p><strong>Parsons School of Design</strong><br>
-          Program: Design and Technology<br>
-          Degree: B.F.A.<br>
-          Discipline: Digital Design, Technology<br>
-          Location: Manhattan<br>
-          Description: The Design and Technology program at Parsons focuses on integrating design with technology to develop interactive projects, including digital art, games, websites, and apps. It emphasizes innovation and creativity in new media.</p>
-      </div>
-
-      <div class="flex-item card3">
-        <img src="images/sva.jpg" alt="School of Visual Arts" class="img-responsive">
-        <p><strong>School of Visual Arts (SVA)</strong><br>
-          Program: BFA in Design<br>
-          Degree: B.F.A.<br>
-          Discipline: Graphic Design, Digital Design<br>
-          Location: Manhattan<br>
-          Description: SVA’s BFA in Design offers a comprehensive approach to graphic design, covering print, interactive, and digital media. Students work with industry leaders to develop skills for careers in design and multimedia production.</p>
-      </div>
-
-      <div class="flex-item card4">
-        <img src="images/nyu.jpg" alt="New York University" class="img-responsive">
-        <p><strong>New York University (NYU)</strong><br>
-          Program: Interactive Telecommunications Program (ITP)<br>
-          Degree: M.A.<br>
-          Discipline: Digital Media, Technology<br>
-          Location: Manhattan<br>
-          Description: ITP at NYU combines art, technology, and business to help students develop digital solutions and interactive projects. It covers areas such as augmented reality, artificial intelligence, and web development.</p>
-      </div>
-
-    </div> <!-- closing .flex-container -->
-  </div> <!-- closing #wrapper -->
-
-</body>
-
-<footer>					
-  <div class="copy">
-  <div class="logo two">
-    <a href="index.html"><h3>Final@Design</h3></a>
-  </div>
-  
-  
-  <p>Copyright &copy; 2024.CUNY.</p>
-  </div>
-</footer>
-
+    <footer>
+        <div class="copy">
+            <div class="logo two">
+                <a href="index.html"><h3>Final@Design</h3></a>
+            </div>
+            <p>Copyright &copy; 2024. CUNY.</p>
+        </div>
+    </footer>
 </body>
 </html>
