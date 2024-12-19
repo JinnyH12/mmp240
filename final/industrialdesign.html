@@ -1,188 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Final</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="reset.css">
-
-<style type="text/css"></style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Programs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
-
 <body>
-<header>
+    <header>
+        <!-- Top Navigation -->
+        <nav id="top">
+            <div class="container">
+                <div class="row">
+                    <strong class="logo">CUNY@Design</strong>
+                    <ul class="list-inline top-link">
+                        <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+                        <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
+                        <li><a href="#">Apply</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-<!--Top-->
-<nav id="top">
-<div class="container">
-<div class="row">
-<strong class="logo">CUNY@Design</strong>
-
-<ul class="list-inline top-link">
-    <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
-    <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
-    <li><a href="#">Apply</a></li>
-</ul>
-</div>
-</div>
-</nav>
-
-
-<!-- Main Navigation -->
-<nav id="menu" class="navbar container">
-<div class="navbar-header">
-        
-<!-- Logo -->
-<a class="navbar-brand" href="#">
-      <div class="logo2">CUNY@FINAL</div>
-    </a>
-
-<!-- Navigation Links -->
-<div class="hamburger-menu">
+        <!-- Main Navigation -->
+        <nav id="menu" class="navbar container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <div class="logo2">CUNY@FINAL</div>
+                </a>
+                <div id="hamburger-menu" class="hamburger-menu">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-<ul class="nav toplist">
-<li><a href="index.html">Home</a></li>
+                <ul class="nav toplist">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Discipline</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="digitaldesign.html">Digital Design</a></li>
+                            <li><a href="animation.html">Animation</a></li>
+                            <li><a href="industrialdesign.html">Industrial Design</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Degree</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="associate.html">Associate</a></li>
+                            <li><a href="bachelor.html">Bachelor</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Borough</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="brooklyn.html">Brooklyn</a></li>
+                            <li><a href="bronx.html">Bronx</a></li>
+                            <li><a href="manhattan.html">Manhattan</a></li>
+                            <li><a href="queens.html">Queens</a></li>
+                        </ul>
+                    </li>
+                    <li class="search-item">
+                        <input type="text" placeholder="Search here" class="search-input">
+                        <button type="button" class="search-button">Search</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-<!-- Disciplin Dropdown -->
-<li class="dropdown">
-<a href="#">Disciplin</a>
-<ul class="dropdown-menu">
-<li><a href="digitaldesign.html">Digital Design</a></li>
-<li><a href="animation.html">Animation</a></li>
-<li><a href="industrialdesign.html">Industrial Design</a></li>
-</ul>
-</li>
-
-<!-- Degree Dropdown -->
-<li class="dropdown">
-<a href="#">Degree</a>
-<ul class="dropdown-menu">
-<li><a href="associate.html">Associate</a></li>
-<li><a href="bachelor.html">Bachelor</a></li>
-</ul>
-</li>
-
-<!-- Borough Dropdown -->
-<li class="dropdown">
-<a href="#">Borough</a>
-<ul class="dropdown-menu">
-<li><a href="brooklyn.html">Brooklyn</a></li>
-<li><a href="bronx.html">Bronx</a></li>
-<li><a href="manhattan.html">Manhattan</a></li>
-<li><a href="queens.html">Queens</a></li>
-</ul>
-</li>
-
-<!-- Search -->
-<li class="search-item">
-<input type="text" placeholder="Search here" class="search-input">
-<button type="button" class="search-button">Search</button>
-</li>
-</ul>
-</nav>
-
-</header>	
-</head>
-<style>
-  /* Type CSS code here */
-
-  #wrapper{
-    max-width:1200px;
-    margin:0 auto;
-    background-color: white;
-  }
-  
-  .flex-container{
-    display: flex;
-
-  }
-
-  .flex-item {
-width: 150px;
-border: solid 1px gray;
-padding: 5px;
-border-radius: 10px;
-margin: 1em;
-flex: 1 0 0; 
-}
-
-.lead {
-border: none;
-flex: 2 0 0; 
-}
-
-  .img-responsive{
-    width:100%;
-  }
-
-  .lead p{
-    font-size: larger;
-  }
-
-  </style>
-<div class="box">
-<div class="box-header header-natural">
-<h2>Industrial Design</h2>
-</div>
-<body>
-  <div id="wrapper">
-
-    <div class="flex-container">
-
-      <div class="flex-item card1">
-        <img src="https://placehold.co/300x200" alt="Digital Design" class="img-responsive">
-        <p><strong>Bronx Community College</strong><br>
-          Program: Digital Design<br>
-          Degree: A.A.S.<br>
-          Discipline: Industrial Design<br>
-          Location: Bronx<br>
-          Description: This program prepares students for careers in the visual communication industry in positions such as graphic design, web design, computer animation, 3D graphic visualization, motion graphics design and interactive multimedia design.</p>
-      </div>
-
-      <div class="flex-item card2">
-        <img src="https://placehold.co/300x200" alt="Communication Design" class="img-responsive">
-        <p><strong>New York City College of Technology</strong><br>
-          Program: Communication Design<br>
-          Degree: A.A.S.<br>
-          Discipline: Industrial Design<br>
-          Location: Brooklyn<br>
-          Description: The AAS degree program in Communication Design provides students with a solid foundation in the theory and practices of the Communication Design profession and a grounding in general education. Students explore visual expression through a range of courses in drawing, design, and web design.</p>
-      </div>
-
-      <div class="flex-item card3">
-        <img src="https://placehold.co/300x200" alt="Graphic Communication" class="img-responsive">
-        <p><strong>Baruch College</strong><br>
-          Program: Graphic Communication<br>
-          Degree: B.A.<br>
-          Discipline: Industrial Design<br>
-          Location: Manhattan<br>
-          Description: The graphic communication specialization provides training in graphics as well as basic training in the broader aspects of business communication. It prepares the graphic artist to enter a business environment.</p>
-      </div>
-
-    </div> <!-- closing .flex-container -->
-  </div> <!-- closing #wrapper -->
-</body>
-
-<footer>					
-  <div class="copy">
-  <div class="logo two">
-    <a href="index.html"><h3>Final@Design</h3></a>
+    <div id="wrapper">
+      <<div class="flex-container">
+        <!-- Card 1: LaGuardia Community College - A.A.S. Industrial Design -->
+        <div class="flex-item">
+            <img src="images/laguardia.jpg" alt="LaGuardia Community College" class="img-responsive">
+            <p><strong>LaGuardia Community College</strong><br>
+                A.A.S. Industrial Design (Queens) - The Industrial Design program provides students with foundational skills to begin a career in Computer Assisted Design (CAD), Model making, Product Design and Fabrication, or transfer to a four-year institution.</p>
+            <button class="degree-btn">A.A.S.</button>
+            <button class="degree-btn">Industrial Design</button>
+        </div>
+    
+        <!-- Card 2: New York City College Of Technology - A.A.S. Industrial Design -->
+        <div class="flex-item">
+            <img src="images/nycct.jpg" alt="New York City College of Technology" class="img-responsive">
+            <p><strong>New York City College of Technology</strong><br>
+                A.A.S. Industrial Design (Brooklyn) - The Industrial Design Technology (IND) program is designed to provide students with a wide variety of skills, enabling them to utilize 2D, 3D, and animation/simulation software packages in several diverse fields.</p>
+            <button class="degree-btn">A.A.S.</button>
+            <button class="degree-btn">Industrial Design</button>
+        </div>
     </div>
-  
-  <ul class="icon">
-    <li><a href=""> <i class="fb1"> </i> </a></li>
-    <li><a href=""><i class="tw1"> </i> </a></li>
-    <li><a href=""><i class="linked1"> </i> </a></li>
-    <li><a href=""><i class="google1"> </i> </a></li>
-  </ul>
-  
-  <p>Copyright &copy; 2024.CUNY.</p>
-  </div>
-  </footer>
-  </body>
-  </html>
-  
+    
+    
+        </div> <!-- closing .flex-container -->
+    </div> <!-- closing #wrapper -->
+
+    <footer>
+        <div class="copy">
+            <div class="logo two">
+                <a href="index.html"><h3>Final@Design</h3></a>
+            </div>
+            <p>Copyright &copy; 2024. CUNY.</p>
+        </div>
+    </footer>
+</body>
+</html>

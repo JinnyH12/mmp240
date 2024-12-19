@@ -1,192 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Final</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="reset.css">
-
-<style type="text/css"></style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Programs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
-
 <body>
-<header>
+    <header>
+        <!-- Top Navigation -->
+        <nav id="top">
+            <div class="container">
+                <div class="row">
+                    <strong class="logo">CUNY@Design</strong>
+                    <ul class="list-inline top-link">
+                        <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+                        <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
+                        <li><a href="#">Apply</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-<!--Top-->
-<nav id="top">
-<div class="container">
-<div class="row">
-<strong class="logo">CUNY@Design</strong>
-
-<ul class="list-inline top-link">
-    <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
-    <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
-    <li><a href="#">Apply</a></li>
-</ul>
-</div>
-</div>
-</nav>
-
-
-<!-- Main Navigation -->
-<nav id="menu" class="navbar container">
-<div class="navbar-header">
-        
-<!-- Logo -->
-<a class="navbar-brand" href="#">
-      <div class="logo2">CUNY@FINAL</div>
-    </a>
-
-<!-- Navigation Links -->
-<div class="hamburger-menu">
+        <!-- Main Navigation -->
+        <nav id="menu" class="navbar container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <div class="logo2">CUNY@FINAL</div>
+                </a>
+                <div id="hamburger-menu" class="hamburger-menu">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-<ul class="nav toplist">
-<li><a href="index.html">Home</a></li>
+                <ul class="nav toplist">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Discipline</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="digitaldesign.html">Digital Design</a></li>
+                            <li><a href="animation.html">Animation</a></li>
+                            <li><a href="industrialdesign.html">Industrial Design</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Degree</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="associate.html">Associate</a></li>
+                            <li><a href="bachelor.html">Bachelor</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Borough</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="brooklyn.html">Brooklyn</a></li>
+                            <li><a href="bronx.html">Bronx</a></li>
+                            <li><a href="manhattan.html">Manhattan</a></li>
+                            <li><a href="queens.html">Queens</a></li>
+                        </ul>
+                    </li>
+                    <li class="search-item">
+                        <input type="text" placeholder="Search here" class="search-input">
+                        <button type="button" class="search-button">Search</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-<!-- Disciplin Dropdown -->
-<li class="dropdown">
-<a href="#">Disciplin</a>
-<ul class="dropdown-menu">
-<li><a href="digitaldesign.html">Digital Design</a></li>
-<li><a href="animation.html">Animation</a></li>
-<li><a href="industrialdesign.html">Industrial Design</a></li>
-</ul>
-</li>
-
-<!-- Degree Dropdown -->
-<li class="dropdown">
-<a href="#">Degree</a>
-<ul class="dropdown-menu">
-<li><a href="associate.html">Associate</a></li>
-<li><a href="bachelor.html">Bachelor</a></li>
-</ul>
-</li>
-
-<!-- Borough Dropdown -->
-<li class="dropdown">
-<a href="#">Borough</a>
-<ul class="dropdown-menu">
-<li><a href="brooklyn.html">Brooklyn</a></li>
-<li><a href="bronx.html">Bronx</a></li>
-<li><a href="manhattan.html">Manhattan</a></li>
-<li><a href="queens.html">Queens</a></li>
-</ul>
-</li>
-
-<!-- Search -->
-<li class="search-item">
-<input type="text" placeholder="Search here" class="search-input">
-<button type="button" class="search-button">Search</button>
-</li>
-</ul>
-</nav>
-
-</header>	
-</head>
-<style>
-  /* Type CSS code here */
-
-  #wrapper{
-    max-width:1200px;
-    margin:0 auto;
-    background-color: white;
-  }
-  
-  .flex-container{
-    display: flex;
-
-  }
-
-  .flex-item {
-width: 150px;
-border: solid 1px gray;
-padding: 5px;
-border-radius: 10px;
-margin: 1em;
-flex: 1 0 0; 
-}
-
-.lead {
-border: none;
-flex: 2 0 0; 
-}
-
-  .img-responsive{
-    width:100%;
-  }
-  .flex-item img {
-  width: 100%; /* 图片宽度占满卡片 */
-  height: 150px; /* 固定高度，保持卡片整齐 */
-  object-fit: cover; /* 裁剪多余部分，保持比例不变 */
-  border-radius: 8px; /* 圆角效果（可选） */
-}
-
-
-  .lead p{
-    font-size: larger;
-  }
-
-  </style>
-<div class="box">
-  <div class="box-header header-natural">
-  <h2>Digital Design</h2>
-  </div>
-<body>
-  <div id="wrapper">
-
-    <div class="flex-container">
-
-      <div class="flex-item card1">
-        <img src="images/bmcc.jpg"alt="placeholder" class="img-responsive">
-        <h5><strong>Borough of Manhattan Community College</strong></h5>
-          Program: Multimedia Programming and Design<br>
-          A.S.<br>
-          Discipline: Digital Design<br>
-          Location: Manhattan<br>
-          <p>Description: The Multimedia Programming and Design Program prepares students for careers in a variety of multimedia industries, companies, and institutions that develop, produce, or market multimedia products, programs, or services.</p>
-      </div>
-
-      <div class="flex-item card2">
-        <img src="images/bmcc.jpg"alt="placeholder" class="img-responsive">
-        <h5><strong>Bronx Community College</strong></h5>
-         Digital Design<br>
-          A.A.S.<br>
-          Location: Bronx<br>
-          <p>Description: This program prepares students for careers in the visual communication industry in positions such as graphic design, web design, computer animation, 3D graphic visualization, motion graphics design, and interactive multimedia design.</p>
-      </div>
-
-      <div class="flex-item card3">
-        <img src="https://placehold.co/300x200" alt="Digital Design Program" class="img-responsive">
-        <h6><strong>Hostos Community College</strong></h6>
-        <h5><strong> Design & Animation</strong></h5>
-      <h6><strong>A.S</strong></h6>
-        <p>Description: Through lectures and studio-based classes, the Digital Design and Animation Program provides students with a strong foundation for future occupations in motion graphics, animation, graphic design, and/or web design.</p>
-      </div>
-
-    </div> <!-- closing .flex-container -->
-  </div> <!-- closing #wrapper -->
-</body>
-
-<footer>					
-  <div class="copy">
-  <div class="logo two">
-    <a href="index.html"><h3>Final@Design</h3></a>
+    <div id="wrapper">
+      <div class="flex-container">
+        <!-- Card 1: Borough of Manhattan Community College - A.S. Digital Design -->
+        <div class="flex-item">
+            <img src="images/bmcc.jpg" alt="Borough of Manhattan Community College" class="img-responsive">
+            <p><strong>Borough of Manhattan Community College</strong><br>
+                A.S. Digital Design (Manhattan) - The Multimedia Programming and Design Program prepares students for careers in a variety of multimedia industries, companies, and institutions that develop, produce, or market multimedia products, programs, or services.</p>
+            <button class="degree-btn">A.S.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    
+        <!-- Card 2: Bronx Community College - A.A.S. Digital Design -->
+        <div class="flex-item">
+            <img src="images/bronx.webp" alt="Bronx Community College" class="img-responsive">
+            <p><strong>Bronx Community College</strong><br>
+                A.A.S. Digital Design (Bronx) - This program prepares students for careers in the visual communication industry in positions such as graphic design, web design, computer animation, 3D graphic visualization, motion graphics design, and interactive multimedia design.</p>
+            <button class="degree-btn">A.A.S.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    
+        <!-- Card 3: Hostos Community College - A.S. Digital Design -->
+        <div class="flex-item">
+            <img src="https://placehold.co/300x200" alt="Hostos Community College" class="img-responsive">
+            <p><strong>Hostos Community College</strong><br>
+                A.S. Digital Design (Bronx) - The Associate degree in Game Design will provide students with a strong foundation for future occupations in the entertainment software industry. It will provide students with additional career opportunities in the field of entertainment software publishing.</p>
+            <button class="degree-btn">A.S.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    
+        <!-- Card 4: Hostos Community College - A.S. Digital Design, Animation -->
+        <div class="flex-item">
+            <img src="https://placehold.co/300x200" alt="Hostos Community College" class="img-responsive">
+            <p><strong>Hostos Community College</strong><br>
+                A.S. Digital Design, Animation (Bronx) - Through lectures and studio-based classes, the Digital Design and Animation Program provides students with a strong foundation for future occupations in motion graphics, animation, graphic design, and/or web design.</p>
+            <button class="degree-btn">A.S.</button>
+            <button class="degree-btn">Digital Design</button>
+            <button class="degree-btn">Animation</button>
+        </div>
+    
+        <!-- Card 5: Kingsborough Community College - A.S. Digital Design -->
+        <div class="flex-item">
+            <img src="images/king.png" alt="Kingsborough Community College" class="img-responsive">
+            <p><strong>Kingsborough Community College</strong><br>
+                A.S. Digital Design (Brooklyn) - The Art Department at Kingsborough Community College is dedicated to providing a comprehensive program of study in the visual arts, designed to prepare students for either continued baccalaureate study or immediate entry into a range of visual art professions.</p>
+            <button class="degree-btn">A.S.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    
+        <!-- Card 6: LaGuardia Community College - A.A.S. Digital Design -->
+        <div class="flex-item">
+            <img src="images/laguardia.jpg" alt="LaGuardia Community College" class="img-responsive">
+            <p><strong>LaGuardia Community College</strong><br>
+                A.A.S. Digital Design (Queens) - The New Media Technology major offers students the opportunity to work and experiment with some of the exciting technologies available today. Students develop a broad understanding of multimedia and internet technologies in order to create digital content.</p>
+            <button class="degree-btn">A.A.S.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    
+        <!-- Card 7: Queensborough Community College - A.S. Digital Design -->
+        <div class="flex-item">
+            <img src="images/queensborough.png" alt="Queensborough Community College" class="img-responsive">
+            <p><strong>Queensborough Community College</strong><br>
+                A.S. Digital Design (Queens) - The A.S. degree program in Digital Art and Design prepares students to enter the expanding field of new media. Students take courses that develop computer skills for fine and applied arts, including digital art and design.</p>
+            <button class="degree-btn">A.S.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    
+        <!-- Card 8: New York City College of Technology - A.A.S. Digital Design -->
+        <div class="flex-item">
+            <img src="images/CityTech.jpg" alt="New York City College of Technology" class="img-responsive">
+            <p><strong>New York City College of Technology</strong><br>
+                A.A.S. Digital Design (Brooklyn) - The AAS degree program in Communication Design provides students with a solid foundation in the theory and practices of the Communication Design profession and a grounding in general education. Students explore visual expression through a range of courses in drawing, design, and web design.</p>
+            <button class="degree-btn">A.A.S.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
+    
+        <!-- Card 9: New York City College of Technology - A.A.S. Digital Design -->
+        <div class="flex-item">
+            <img src="images/CityTech.jpg" alt="New York City College of Technology" class="img-responsive">
+            <p><strong>New York City College of Technology</strong><br>
+                B.F.A. Digital Design (Brooklyn) - The BFA degree develops students' abilities to frame, research, and solve increasingly complex visual communication problems. Students develop a professional portfolio that prepares them for employment as art directors, graphic designers, illustrators, and web designers.</p>
+            <button class="degree-btn">B.F.A.</button>
+            <button class="degree-btn">Digital Design</button>
+        </div>
     </div>
-  
-  <ul class="icon">
-    <li><a href=""> <i class="fb1"> </i> </a></li>
-    <li><a href=""><i class="tw1"> </i> </a></li>
-    <li><a href=""><i class="linked1"> </i> </a></li>
-    <li><a href=""><i class="google1"> </i> </a></li>
-  </ul>
-  
-  <p>Copyright &copy; 2024.CUNY.</p>
-  </div>
-  </footer>
-  </body>
-  </html>
-  
+    
+        </div> <!-- closing .flex-container -->
+    </div> <!-- closing #wrapper -->
+
+    <footer>
+        <div class="copy">
+            <div class="logo two">
+                <a href="index.html"><h3>Final@Design</h3></a>
+            </div>
+            <p>Copyright &copy; 2024. CUNY.</p>
+        </div>
+    </footer>
+</body>
+</html>

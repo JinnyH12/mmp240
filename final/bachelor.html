@@ -1,198 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Final</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="reset.css">
-
-<style type="text/css"></style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
-
 <body>
 <header>
-
 <!--Top-->
 <nav id="top">
 <div class="container">
 <div class="row">
 <strong class="logo">CUNY@Design</strong>
-
 <ul class="list-inline top-link">
-    <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
-    <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
-    <li><a href="#">Apply</a></li>
+<li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+<li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
+<li><a href="#">Apply</a></li>
 </ul>
 </div>
 </div>
-</nav>
-
+ </nav>
 
 <!-- Main Navigation -->
 <nav id="menu" class="navbar container">
 <div class="navbar-header">
-        
-<!-- Logo -->
+ <!-- Logo -->
 <a class="navbar-brand" href="#">
-      <div class="logo2">CUNY@FINAL</div>
-    </a>
+<div class="logo2">CUNY@FINAL</div>
+</a>
 
-<!-- Navigation Links -->
-<div class="hamburger-menu">
+                <!-- Navigation Links -->
+                <div id="hamburger-menu" class="hamburger-menu">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-<ul class="nav toplist">
-<li><a href="index.html">Home</a></li>
+                <ul class="nav toplist">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Discipline</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="digitaldesign.html">Digital Design</a></li>
+                            <li><a href="animation.html">Animation</a></li>
+                            <li><a href="industrialdesign.html">Industrial Design</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Degree</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="associate.html">Associate</a></li>
+                            <li><a href="bachelor.html">Bachelor</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Borough</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="brooklyn.html">Brooklyn</a></li>
+                            <li><a href="bronx.html">Bronx</a></li>
+                            <li><a href="manhattan.html">Manhattan</a></li>
+                            <li><a href="queens.html">Queens</a></li>
+                        </ul>
+                    </li>
+                    <li class="search-item">
+                        <input type="text" placeholder="Search here" class="search-input">
+                        <button type="button" class="search-button">Search</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-<!-- Disciplin Dropdown -->
-<li class="dropdown">
-<a href="#">Disciplin</a>
-<ul class="dropdown-menu">
-<li><a href="digitaldesign.html">Digital Design</a></li>
-<li><a href="animation.html">Animation</a></li>
-<li><a href="industrialdesign.html">Industrial Design</a></li>
-</ul>
-</li>
-
-<!-- Degree Dropdown -->
-<li class="dropdown">
-<a href="#">Degree</a>
-<ul class="dropdown-menu">
-<li><a href="associate.html">Associate</a></li>
-<li><a href="bachelor.html">Bachelor</a></li>
-</ul>
-</li>
-
-<!-- Borough Dropdown -->
-<li class="dropdown">
-<a href="#">Borough</a>
-<ul class="dropdown-menu">
-<li><a href="brooklyn.html">Brooklyn</a></li>
-<li><a href="bronx.html">Bronx</a></li>
-<li><a href="manhattan.html">Manhattan</a></li>
-<li><a href="queens.html">Queens</a></li>
-</ul>
-</li>
-
-<!-- Search -->
-<li class="search-item">
-<input type="text" placeholder="Search here" class="search-input">
-<button type="button" class="search-button">Search</button>
-</li>
-</ul>
-</nav>
-
-</header>	
-</head>
-<style>
-  /* Type CSS code here */
-
-  #wrapper{
-    max-width:1200px;
-    margin:0 auto;
-    background-color: white;
-  }
-  
-  .flex-container{
-    display: flex;
-
-  }
-
-  .flex-item {
-width: 150px;
-border: solid 1px gray;
-padding: 5px;
-border-radius: 10px;
-margin: 1em;
-flex: 1 0 0; 
-}
-
-.lead {
-border: none;
-flex: 2 0 0; 
-}
-
-  .img-responsive{
-    width:100%;
-  }
-
-  .lead p{
-    font-size: larger;
-  }
-
-  </style>
-<div class="box">
-<div class="box-header header-natural">
-<h2>Digital Design</h2>
-</div>
-<body>
     <div id="wrapper">
-  
-      <div class="flex-container">
-  
-        <div class="flex-item card1">
-          <img src="images/CityTech.jpg"alt="placeholder" class="img-responsive">
-          <p><strong>New York City College of Technology</strong><br>
-            Program: Communication Design<br>
-            Degree: B.F.A.<br>
-            Discipline: Digital Design<br>
-            Location: Brooklyn<br>
-            Description: The BFA degree develops students' abilities to frame, research, and solve increasingly complex visual communication problems. Students develop a professional portfolio that prepares them for employment as art directors, graphic designers, illustrators, and web designers.</p>
-        </div>
-  
-        <div class="flex-item card2">
-          <img src="images/queenscollege.webp"alt="placeholder" class="img-responsive">
-          <p><strong>Queens College</strong><br>
-            Program: Design<br>
-            Degree: B.F.A.<br>
-            Discipline: Digital Design, Animation<br>
-            Location: Queens<br>
-            Description: Queens College’s Design program combines knowledgeable faculty with industry standard software and the creativity of a studio-based learning environment. Students choose one of three concentrations: Communication Design, Animation & Illustration, or Interaction Design.</p>
-        </div>
-  
-        <div class="flex-item card3">
-          <img src="images/citycollege.jpg"alt="placeholder" class="img-responsive">
-          <p><strong>The City College of New York</strong><br>
-            Program: Electronic Design and Multimedia<br>
-            Degree: B.F.A.<br>
-            Discipline: Digital Design<br>
-            Location: Manhattan<br>
-            Description: The Electronic Design & Multimedia program prepares students for careers in design in traditional print and emerging electronic media. It offers one of the most comprehensive, affordable 4-year programs in electronic art at a New York City public university, and has an 18-year record of alumni success.</p>
-        </div>
-  
-        <div class="flex-item card4">
-          <img src="images/york.jpg"alt="placeholder" class="img-responsive">
-          <p><strong>York College</strong><br>
-            Program: Communications Technology<br>
-            Degree: B.S.<br>
-            Discipline: Digital Design<br>
-            Location: Queens<br>
-            Description: An interdisciplinary program that brings together television, web, information systems, computer science, and design. The program offers three main concentrations: digital video, computer graphics, and systems and applications.</p>
-        </div>
-  
-      </div> <!-- closing .flex-container -->
+        <div class="flex-container">
+            <!-- Card 1 -->
+            <div class="flex-item">
+                <img src="images/bmcc.jpg" alt="BMCC" class="img-responsive">
+                <p><strong>Borough of Manhattan Community College</strong><br>
+                    The Multimedia Programming and Design Program prepares students for advanced roles in multimedia industries, including digital production, web design, animation, and multimedia programming.</p>
+                <button class="degree-btn">B.A.</button>
+                <button class="degree-btn">Digital Design</button>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="flex-item">
+                <img src="images/bronx.webp" alt="Bronx Community College" class="img-responsive">
+                <p><strong>Bronx Community College</strong><br>
+                    The program prepares students for advanced positions in the visual communication industry, including graphic design, web design, computer animation, and interactive multimedia design.</p>
+                <button class="degree-btn">B.A.</button>
+                <button class="degree-btn">Digital Design</button>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="flex-item">
+                <img src="https://placehold.co/300x200" alt="Hostos Digital Design & Animation" class="img-responsive">
+                <p><strong>Hostos Community College</strong><br>
+                    The Bachelor’s program builds on foundational courses in design and animation, preparing students for careers in animation, web design, and motion graphics.</p>
+                <button class="degree-btn">B.A.</button>
+                <button class="degree-btn">Digital Design</button>
+                <button class="degree-btn">Animation</button>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="flex-item">
+                <img src="https://placehold.co/300x200" alt="Game Design" class="img-responsive">
+                <p><strong>Hostos Community College</strong><br>
+                    This Bachelor’s degree program in Game Design equips students with the skills needed for professional careers in the entertainment software industry, including game development and publishing.</p>
+                <button class="degree-btn">B.A.</button>
+                <button class="degree-btn">Digital Design</button>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="flex-item">
+                <img src="images/king.png" alt="Kingsborough Community College" class="img-responsive">
+                <p><strong>Kingsborough Community College</strong><br>
+                    The Design & Illustration program at Kingsborough offers a comprehensive curriculum preparing students for professional careers in graphic design, advertising, and visual communication.</p>
+                <button class="degree-btn">B.F.A.</button>
+                <button class="degree-btn">Digital Design</button>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="flex-item">
+                <img src="images/laguardia.jpg" alt="LaGuardia Community College" class="img-responsive">
+                <p><strong>LaGuardia Community College</strong><br>
+                   
+              
+                  The <strong>New Media Technology</strong> program allows students to work with multimedia tools to develop skills in digital content creation, design, and multimedia communications.</p>
+                    <button class="degree-btn">B.A.</button>
+                    <button class="degree-btn">Digital Design</button>
+                  </div>
+
+            <!-- Card 7 -->
+            <div class="flex-item">
+                <img src="images/queensborough.png" alt="Queensborough Community College" class="img-responsive">
+                <p><strong>Queensborough Community College</strong><br>
+                  
+                    
+                    This Bachelor’s program offers a curriculum that covers both artistic skills and technical expertise in digital art and design for careers in new media.</p>
+                    <button class="degree-btn">B.A.</button>
+                    <button class="degree-btn">Digital Design</button>
+                  </div>
+
+            <!-- Card 8 -->
+            <div class="flex-item">
+                <img src="images/CityTech.jpg" alt="New York City College of Technology" class="img-responsive">
+                <p><strong>New York City College of Technology</strong><br>
+                   
+                    
+                     The Bachelor of Fine Arts degree in <strong>Communication Design</strong> prepares students to enter the field of visual communication, emphasizing the development of design concepts, strategies, and creative skills.</p>
+                    <button class="degree-btn">B.F.A.</button>
+                    <button class="degree-btn">Digital Design</button>
+                  </div>
+        </div> <!-- closing .flex-container -->
     </div> <!-- closing #wrapper -->
-  </body>
-  
-<footer>					
-  <div class="copy">
-  <div class="logo two">
-    <a href="index.html"><h3>Final@Design</h3></a>
-    </div>
-  
-  <ul class="icon">
-    <li><a href=""> <i class="fb1"> </i> </a></li>
-    <li><a href=""><i class="tw1"> </i> </a></li>
-    <li><a href=""><i class="linked1"> </i> </a></li>
-    <li><a href=""><i class="google1"> </i> </a></li>
-  </ul>
-  
-  <p>Copyright &copy; 2024.CUNY.</p>
-  </div>
-  </footer>
-  </body>
-  </html>
-  
+
+    <footer>
+        <div class="copy">
+            <div class="logo two">
+                <a href="index.html"><h3>Final@Design</h3></a>
+            </div>
+            <p>Copyright &copy; 2024. CUNY.</p>
+        </div>
+    </footer>
+</body>
+</html>
