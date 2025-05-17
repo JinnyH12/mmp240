@@ -1,1 +1,1 @@
-https://JinnyH12.github.io/mmp240/recipe/recipe.html
+https://JinnyH12.github.io/mmp240/Jinny/index.html
