@@ -1,0 +1,35 @@
+body{
+    margin:75px;
+    background-color:#ffcccc;
+    font-family:'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1{
+    background-color:#ffe066;
+    color: white;
+    width:400px;
+    height:40px;
+    border:solid 4px #1f1f14;
+    font-family:'Times New Roman', serif;
+    font-size: 35px;
+    padding:10px;
+  }
+  
+  
+
+  p{
+    text-align: justify;
+  }
+  
+  button{
+    background-color:#b3ecff;
+    color:white;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  button:hover{
+    background-color:#9f80ff;
+    font-family: 'Times New Roman', serif;
+  }

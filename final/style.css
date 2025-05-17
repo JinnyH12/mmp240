@@ -344,17 +344,41 @@ a:hover,a:focus {
     background-color: #0056b3;
 }
 
+
+/* 默认情况下隐藏汉堡菜单 */
+.hamburger-menu {
+    display: none; /* 默认不显示 */
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 汉堡菜单的三个条纹 */
+.hamburger-menu span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.3s ease; /* 添加过渡效果 */
+}
+
 /* 响应式菜单样式 */
 @media (max-width: 767px) {
     /* 显示汉堡菜单按钮 */
-    .navbar-toggle {
+    .navbar-toggle ， .hamburger-menu {
         display: block; /* 确保按钮可见 */
 		float: right; /* 按钮靠右显示 */
-        background-color: #333; /* 设置背景颜色 */
-        border: none;
-        color: #fff; /* 图标颜色 */
-        font-size: 2em; /* 设置图标大小 */
-        cursor: pointer; /* 鼠标悬停时显示手形 */
+      
+    }
+    .navbar-toggle{
+    background-color: #333; /* 设置背景颜色 */
+    border: none;
+    color: #fff; /* 图标颜色 */
+    font-size: 2em; /* 设置图标大小 */
+    cursor: pointer; /* 鼠标悬停时显示手形 */
     }
 
     /* 折叠菜单默认状态：隐藏 */
@@ -383,89 +407,57 @@ a:hover,a:focus {
 
 
 
-/* 汉堡菜单样式 */
-.hamburger-menu {
-    display: none; /* 默认不显示 */
-    width: 30px;
-    height: 25px;
-    cursor: pointer;
-    flex-direction: column;
-    justify-content: space-between;
-   
-}
 
-.hamburger-menu span {
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: #333;
-    border-radius: 5px;
-}
 
-/* 隐藏汉堡菜单 */
-.hamburger-menu {
-    display: none;
-}
-
-/* 在小屏幕下，显示汉堡菜单 */
-@media (max-width: 767px) {
-    .hamburger-menu {
-        display: flex;
-        flex-direction: column;
-        width: 30px;
-        height: 25px;
-        justify-content: space-between;
-        cursor: pointer;
-        cursor: pointer;
-    }
     
-    .hamburger-menu span {
-        width: 100%;
-        height: 4px;
-        background-color: white;
-        border-radius: 5px;
-        transition: all 0.3s ease;
-    }
 
-    /* 当汉堡菜单被点击时，导航菜单显示 */
+    /* 导航菜单默认隐藏 */
     .nav {
-        display: none;
-        flex-direction: column;
+        display: none; /* 默认情况下菜单隐藏 */
+        width: 100%;
+        text-align: center;
         background-color: #333;
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 2;
+        padding-top: 60px; /* 给菜单顶部留出空间 */
+        z-index: 9999; /* 确保菜单在最上层 */
     }
 
-    .nav.active {
-        display: block;
+    /* 当菜单被点击后显示 */
+    .nav.show {
+        display: block; /* 显示导航菜单 */
     }
 
+    /* 使菜单项纵向排列 */
     .nav li {
-        padding: 10px;
-        text-align: center;
-        position: relative; 
-    }
-}
-
-/* 下拉菜单 */
-    .dropdown-menu {
-        display: none;
-        position: absolute;
-        left: 0;
-        top: 100%;
-        background-color: #fff; /* 背景设为白色 */
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        width: 100%;
-        z-index: 1000;
-    }
-
-    /* 鼠标悬停显示下拉菜单 */
-    .dropdown:hover .dropdown-menu {
         display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav a {
+        padding: 15px;
+        color: white;
+        background-color: #333;
+        border-top: 1px solid #444;
+    }
+
+    .nav a:hover {
+        background-color: #555;
+    }
+
+    /* 下拉菜单的样式 */
+    .dropdown-menu {
+        display: none; /* 默认隐藏下拉菜单 */
+        position: static;
+        background-color: #444; /* 下拉菜单背景 */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+    }
+
+    /* 让下拉菜单在点击时显示 */
+    .dropdown.show .dropdown-menu {
+        display: block; /* 通过 .show 类显示 */
     }
 
     /* 下拉菜单项 */
@@ -474,10 +466,10 @@ a:hover,a:focus {
         text-align: center;
     }
 
-    /* 鼠标悬停在下拉菜单时背景色变化 */
     .dropdown-menu li:hover {
-        background-color: #f1f1f1; /* 鼠标悬停时的背景色 */
+        background-color: #555; /* 鼠标悬停时背景色 */
     }
+}
 
 
 /* 父容器样式 */
